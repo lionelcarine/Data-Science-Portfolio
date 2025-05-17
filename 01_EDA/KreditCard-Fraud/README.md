@@ -44,4 +44,4 @@ In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erke
 ## 🚀 Streamlit starten
 
 ```bash
-streamlit run app_creditcard.py
+streamlit run app_creditcard.py 
