@@ -1,9 +1,6 @@
 ﻿# Projet 1.2 : Marketing-Segmentierung 
 
-## Projekt 1B – Explorative Datenanalyse: Marketing-Kampagne
-
-```markdown
-# 📊 Explorative Datenanalyse – Marketing-Kampagne
+# 💳 Explorative Datenanalyse – Marketing-Kampagne 
 
 In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marketingkampagne analysiert. Das Ziel ist es, profitable Kundensegmente zu identifizieren und die Reaktion auf die letzte Kampagne zu visualisieren.
 
