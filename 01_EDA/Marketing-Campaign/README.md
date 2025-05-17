@@ -1,6 +1,6 @@
 ﻿# Projet 1.2 : Marketing-Segmentierung 
 
-## 🇩🇪 Projekt 1B – Explorative Datenanalyse: Marketing-Kampagne
+## Projekt 1B – Explorative Datenanalyse: Marketing-Kampagne
 
 ```markdown
 # 📊 Explorative Datenanalyse – Marketing-Kampagne
