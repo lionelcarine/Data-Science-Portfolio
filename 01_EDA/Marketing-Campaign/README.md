@@ -59,6 +59,13 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
   ---
 
+  ## 📈 Visualisierungen
+
+<img src="images/conversion_comparison.png" alt="Konversionsratenvergleich" width="500"/>
+
+---
+
+
 ## 🚀 Streamlit starten
 
 ```bash
