@@ -49,9 +49,10 @@ In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erke
     - Klasse 1 Betrug
     - Klasse 0 normal
 - Stark unausgeglichene Daten: ca. 0,17% Betrug
-- Die Korrelationsvariablen zeigen eine gute Trennung zwischen Betrug und normalen Transaktionen.
+- Betrügereien haben oft ausgeprägte negative Werte bei diesen Variablen
 - Bestimmte Tageszeiten scheinen für Betrug anfälliger zu sein
-- Betrug ist in einigen Verteilungen deutlich erkennbar, was für die Zukunft vielversprechend ist.  
+- Visuelle Einsicht: Betrügereien heben sich in einigen Verteilungen deutlich ab, was vielversprechend für den weiteren Verlauf ist (überwachtes Modell).
+- Die Korrelationsvariablen V17, V14 und V12 zeigen eine gute Trennung zwischen Betrügereien und normalen Transaktionen.
 
 ---
 
