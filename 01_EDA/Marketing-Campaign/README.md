@@ -45,6 +45,20 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
 ---
 
+## ✅ Ergebnisse
+
+- Anzahl der Transaktionen: 284807, davon 1081 doppelte Werte und keine fehlenden Werte.
+- Spalten: 31 (einschließlich der anonymisierten Variablen V1 bis V8)
+- Zielwert: 
+    - Klasse 1 Betrug
+    - Klasse 0 normal
+- Stark unausgeglichene Daten: ca. 0,17% Betrug
+- Die Korrelationsvariablen zeigen eine gute Trennung zwischen Betrug und normalen Transaktionen.
+- Bestimmte Tageszeiten scheinen für Betrug anfälliger zu sein
+- Betrug ist in einigen Verteilungen deutlich erkennbar, was für die Zukunft vielversprechend ist.
+
+  ---
+
 ## 🚀 Streamlit starten
 
 ```bash
