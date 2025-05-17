@@ -1,5 +1,5 @@
 ﻿# Projet 1.1 : Erkennung von Bankbetrug 
-# 💳 Explorative Datenanalyse – Kreditkartenbetrug
+# 💳 Explorative Datenanalyse – KreditCard-Fraud
 
 In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erkennen. Es handelt sich um eine EDA-Studie (Explorative Datenanalyse), die als Vorbereitung auf ein späteres Klassifikationsmodell dient.
 
@@ -43,23 +43,19 @@ In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erke
 
 ## ✅ Ergebnisse
 
-- Anzahl der Transaktion: 284807
 - Anzahl der Transaktionen: 284807, davon 1081 doppelte Werte und keine fehlenden Werte.
 - Spalten: 31 (einschließlich der anonymisierten Variablen V1 bis V8)
 - Zielwert: 
-    ## Klasse 1 Betrug
-    ## Klasse 0 normal
+    - Klasse 1 Betrug
+    - Klasse 0 normal
 - Stark unausgeglichene Daten: ca. 0,17% Betrug
 - Die Korrelationsvariablen zeigen eine gute Trennung zwischen Betrug und normalen Transaktionen.
 - Bestimmte Tageszeiten scheinen für Betrug anfälliger zu sein
 - Betrug ist in einigen Verteilungen deutlich erkennbar, was für die Zukunft vielversprechend ist.  
-
-➡️ **Schlussfolgerung**: Der Unterschied ist nicht signifikant.  
-Die neue Landing Page bringt **keinen messbaren Vorteil** gegenüber der alten, basierend auf diesem Test.
 
 ---
 
 ## 🚀 Streamlit starten
 
 ```bash
-streamlit run app_creditcard.py 
+streamlit run .\app_creditcard.py 
