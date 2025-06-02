@@ -56,12 +56,6 @@ In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erke
 
 ---
 
-## 📈 Visualisierungen
-
-<img src="images/conversion_comparison.png" alt="Konversionsratenvergleich" width="500"/>
-
----
-
 ## 🚀 Streamlit starten
 
 ```bash
