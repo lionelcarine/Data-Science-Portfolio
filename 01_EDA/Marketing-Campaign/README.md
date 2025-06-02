@@ -45,7 +45,7 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
 ---
 
-## ✅ Ergebnisse
+## ✅ Ergebnisse (mettre le ergebnisse de Marketing car ceci est pour creditcard fraude)
 
 - Anzahl der Transaktionen: 284807, davon 1081 doppelte Werte und keine fehlenden Werte.
 - Spalten: 31 (einschließlich der anonymisierten Variablen V1 bis V8)
