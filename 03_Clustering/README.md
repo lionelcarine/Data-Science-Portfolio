@@ -1,13 +1,13 @@
 ﻿# Projet 3 : Clustering 
 # 📊 Kundensegmentierung mittels Clustering und Dimensionsreduktion
 
-Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion**, um **Kunden in homogene Gruppen** anhand ihres Kaufverhaltens zu segmentieren.
+Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion**, um **Kunden in homogene Gruppen** anhand des Kaufverhaltens zu segmentieren.
 
 ---
 
 ## 🎯 Ziele
 
-- Kunden basierend auf ihren Merkmalen und Verhaltensweisen segmentieren
+- Kunden basierend auf den Merkmalen und Verhaltensweisen segmentieren
 - Homogene Gruppen identifizieren für gezieltes Marketing
 - Visualisierung der Cluster in 2D mit PCA und t-SNE
 
@@ -15,9 +15,9 @@ Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion
 
 ## 🗃️ Verwendete Daten
 
-- **Datensatz:** [Customer Segmentation Dataset – Kaggle](https://www.kaggle.com/datasets/kaushiksuresh147/customersegmentation)
-- Merkmale: Alter, Einkommen, Kaufverhalten usw.
-- Anzahl der Beobachtungen: über 200 Kunden
+- **Datensatz:** [Customer Segmentation Dataset – Kaggle]([https://www.kaggle.com/datasets/kaushiksuresh147/customersegmentation])
+- Merkmale: Alter, Work_Experience, Family_Size, usw.
+- Anzahl der Beobachtungen: 2627 Kunden
 
 ---
 
@@ -25,7 +25,7 @@ Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion
 
 - **Python**
   - `pandas`, `numpy` – Datenvorverarbeitung
-  - `scikit-learn` – Clustering-Algorithmen: KMeans, DBSCAN
+  - `scikit-learn` – Clustering-Algorithmen: KMeans
   - `PCA`, `t-SNE` – Dimensionsreduktion
   - `matplotlib`, `seaborn`, `plotly` – Visualisierung der Cluster
 
@@ -35,29 +35,19 @@ Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion
 
 1. **Exploration und Bereinigung der Daten**
 2. **Standardisierung der Variablen**
-3. **Clustering (KMeans, DBSCAN, hierarchisches Clustering)**
-4. **Bestimmung der optimalen Clusteranzahl (Elbow-Methode, Silhouette-Score)**
+3. **Clustering (KMeans)**
+4. **Bestimmung der optimalen Clusteranzahl (Elbow-Methode)**
 5. **Dimensionsreduktion (PCA, t-SNE) zur Visualisierung**
 6. **Interaktive Visualisierung der Kundengruppen**
 7. **Interpretation der Segmente und Marketingempfehlungen**
 
 ---
 
-## 📈 Beispielhafte Visualisierungen
-
-### Cluster mit KMeans und t-SNE
-![tsne_clusters](images/tsne_clusters.png)
-
-### Cluster mit PCA
-![pca_clusters](images/pca_clusters.png)
-
----
-
 ## 🧠 Erlernte Kompetenzen
 
-- Anwendung von Clustering-Algorithmen (KMeans, DBSCAN, Hierarchisches Clustering)
+- Anwendung von Clustering-Algorithmen (KMeans)
 - Dimensionsreduktion zur visuellen Interpretation (PCA, t-SNE)
-- Bewertung von Clustering-Ergebnissen (Silhouette-Score, Inertia)
+- Bewertung von Clustering-Ergebnissen (Inertia)
 - Interaktive Visualisierung von Kundengruppen
 - Marketing-orientierte Interpretation der Segmente
 
