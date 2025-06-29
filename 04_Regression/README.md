@@ -43,19 +43,19 @@ Dieses Projekt zielt darauf ab, Werbeverkäufe anhand verschiedener Regressionsm
 
 ### 1. Lokal (ohne Docker)
 
-# Abhängigkeiten installieren
+#### Abhängigkeiten installieren
 pip install -r requirements.txt
 
-# API starten
+#### API starten
 uvicorn api.main:app --reload
 
-# Zugriff auf die API
+#### Zugriff auf die API
 http://localhost:8000/docs
 
 ### 2. Mit Docker
 
-# Image bauen
+#### Image bauen
 docker build -t marketing-api .
 
-# Container starten
+#### Container starten
 docker run -p 8000:8000 marketing-api
