@@ -13,6 +13,12 @@ Dieses Projekt zielt darauf ab, Werbeverkäufe anhand verschiedener Regressionsm
 
 ---
 
+## 📁 Datensatz
+
+**Quelle:** (https://www.kaggle.com/datasets/yasserh/advertisingsales-dataset/data) 
+
+---
+
 ## 🧰 Verwendete Technologien
 
 - Python (pandas, scikit-learn, xgboost, seaborn, joblib)
