@@ -47,7 +47,7 @@ curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json
 
 docker build -t dcgan-fashion-api .
 
-### 5. Starten Sie den Container
+### 5. Starten mit dem Container
 
 docker run -p 8000:8000 dcgan-fashion-api
 
