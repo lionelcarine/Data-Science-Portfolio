@@ -42,3 +42,12 @@ uvicorn api_generate_fashion:app --reload
 ### 3. API testen
 
 curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json" -d '{"seed": 42}'
+
+### 4. Aufbau des Docker-Images
+
+docker build -t dcgan-fashion-api .
+
+### 5. Starten Sie den Container
+
+docker run -p 8000:8000 dcgan-fashion-api
+
