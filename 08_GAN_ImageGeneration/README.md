@@ -40,3 +40,5 @@ pip install fastapi uvicorn tensorflow pillow
 uvicorn api_generate_fashion:app --reload
 
 ### 3. API testen
+
+curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json" -d '{"seed": 42}'
