@@ -1,7 +1,7 @@
-# 📊 Data Science Portfolio – 10 Projekte für den Berufseinstieg
+# 📊 Data Science Portfolio 
 
 Willkommen in meinem Data Science Portfolio!  
-Hier findest du schon 6 sorgfältig ausgewählte Projekte, die meine Fähigkeiten in Datenanalyse, maschinellem Lernen, Deep Learning, Zeitreihenanalyse, NLP und Deployment zeigen.
+Hier findest du schon 7 sorgfältig ausgewählte Projekte, die meine Fähigkeiten in Datenanalyse, maschinellem Lernen, Deep Learning, Zeitreihenanalyse, NLP und Deployment zeigen.
 
 Diese Projekte basieren auf realen Anwendungsfällen aus verschiedenen Branchen (Banken, Marketing, Gesundheit, Industrie, E-Commerce, Medien) und decken den gesamten Data-Science-Workflow ab – von der Datenaufbereitung bis zur Produktion.
 
