@@ -61,7 +61,7 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
   ## 📈 Visualisierungen
 
-*➡ [Zum Notebook: churn_prediction.ipynb](01_EDA/Marketing-Campaign/churn_prediction.ipynb)*
+*➡ [Zum Notebook: churn_prediction.ipynb](https://github.com/lionelcarine/Data-Science-Portfolio/blob/main/01_EDA/Marketing-Campaign/EDA_Marketing_Campaign.ipynb)*
 
 ---
 
@@ -70,6 +70,7 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
 ```bash
 streamlit run app_marketing.py
+
 
 
 
