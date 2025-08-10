@@ -65,3 +65,21 @@ docker build -t marketing-api .
 
 #### Container starten
 docker run -p 8000:8000 marketing-api
+
+---
+## 📊 Ergebnisse 
+
+- Die Visualisierungen zeigen eine starke positive Korrelation zwischen dem TV-Werbebudget und den Verkäufen.
+- Radio- und Zeitungsbudgets haben einen geringeren, aber dennoch messbaren Einfluss auf die Verkäufe.
+- Für jedes Modell wurden RMSE (Root Mean Squared Error) und R² berechnet:
+    - XGBoost erzielt die besten Ergebnisse:
+    - Niedrigster RMSE
+    - Höchster R²
+      → Hervorragende Vorhersagegenauigkeit für Verkaufszahlen.
+- Das XGBoost-Modell wurde gespeichert (best_model.joblib)
+- Es kann zukünftig zur Vorhersage von Verkäufen auf Basis der Werbebudgets verwendet werden.
+
+📌 Zusammenfassung
+- TV-Werbung ist der wichtigste Faktor für den Verkaufserfolg.
+- XGBoost liefert die beste Vorhersageleistung.
+- Das Modell kann eingesetzt werden, um Werbeinvestitionen zu optimieren.
