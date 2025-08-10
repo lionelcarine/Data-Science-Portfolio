@@ -61,7 +61,7 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
   ## 📈 Visualisierungen
 
-<img src="images/conversion_comparison.png" alt="Konversionsratenvergleich" width="500"/>
+*➡ [Zum Notebook: churn_prediction.ipynb](churn_prediction.ipynb)*
 
 ---
 
@@ -70,3 +70,4 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
 ```bash
 streamlit run app_marketing.py
+
