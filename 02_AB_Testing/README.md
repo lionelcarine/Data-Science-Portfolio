@@ -65,7 +65,7 @@ Die neue Landing Page bringt **keinen messbaren Vorteil** gegenüber der alten, 
 
 ## 📈 Visualisierung
 
-<img src="images/conversion_comparison.png" alt="Konversionsratenvergleich" width="500"/>
+*➡ [Zum Notebook: churn_prediction.ipynb](https://github.com/lionelcarine/Data-Science-Portfolio/blob/main/02_AB_Testing/churn_prediction.ipynb)*
 
 ---
 
@@ -73,3 +73,4 @@ Die neue Landing Page bringt **keinen messbaren Vorteil** gegenüber der alten, 
 
 **Carine Lionel Kuimi**   
 📫 Kontakt: carine.kuimi@protonmail.com
+
