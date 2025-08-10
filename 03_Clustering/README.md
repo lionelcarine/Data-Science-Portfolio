@@ -53,5 +53,5 @@ Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion
 
 ---
 
-## 📦 Projektstruktur
+
 
