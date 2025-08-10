@@ -53,5 +53,33 @@ Dieses Projekt verwendet **unüberwachtes Clustering** und **Dimensionsreduktion
 
 ---
 
+## 📊 Ergebnisse
+
+- Datenvorbereitung und Variablenauswahl
+Die Daten wurden bereinigt (Entfernung fehlender Werte und Duplikate) und die relevanten Variablen für das Clustering ausgewählt: Alter, Berufserfahrung, Familiengröße und Ausgabenscore.
+
+- Bestimmung der optimalen Clusteranzahl
+Die Elbow-Methode zeigt, dass eine Unterteilung in 5 Cluster für die Kundensegmentierung sinnvoll ist.
+
+- Visualisierung der Cluster
+Die Projektionen mit PCA und t-SNE zeigen, dass die Gruppen im Merkmalsraum gut voneinander getrennt sind, was die Qualität des Clusterings bestätigt.
+
+- Die Berufserfahrung variiert stark zwischen den Clustern. Auch die Familiengröße ist ein wichtiger Unterscheidungsfaktor.
+
+- Merkmalsverteilung
+Die Boxplots zeigen, dass jedes Cluster spezifische Verhaltensmuster in Bezug auf Alter, Erfahrung, Familiengröße und Ausgaben hat.
+
+- Clusteranalyse
+Jedes Cluster weist unterschiedliche Profile auf:
+  - Einige Gruppen sind jünger, andere älter.
+  - Die Ausgabenscores und die Berufserfahrung unterscheiden sich stark zwischen den Clustern.
+  - Die Familiengröße beeinflusst ebenfalls die Segmentierung.
+
+**Zusammenfassung**
+Durch das Clustering konnten mehrere Kundensegmente mit unterschiedlichen Profilen und Verhaltensweisen identifiziert werden.
+Diese Ergebnisse ermöglichen eine gezieltere Ausrichtung von Marketing- oder Vertriebsmaßnahmen, angepasst an die Bedürfnisse und Gewohnheiten der einzelnen Gruppen.
+Die Visualisierungen bestätigen die Relevanz der Segmentierung und erleichtern die Interpretation der Ergebnisse.
+
+
 
 
