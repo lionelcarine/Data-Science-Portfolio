@@ -57,7 +57,6 @@ Ziel ist es, Kunden mit hohem Kündigungsrisiko frühzeitig zu erkennen und gezi
   - requirements.txt # Python-Abhängigkeiten
   - README.md # Diese Datei
 
-
 ---
 
 ## 📊 Interaktive Visualisierung (Plotly)
@@ -79,5 +78,37 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+---
+
+## 📊 Ergebnisse
+
+- Verteilung des Churn
+  - Beobachtung: Die Mehrheit der Kunden bleibt dem Anbieter treu, jedoch kündigt ein signifikanter Anteil der Kunden (Churn).
+  - Geschäftliche Bedeutung: Die Reduzierung der Kündigungsrate ist entscheidend, um Umsatzeinbußen zu vermeiden.
     
+- Empfohlene Visualisierung: Kreisdiagramm oder Balkendiagramm zur Darstellung des Anteils von Churn vs. Nicht-Churn.
+- Stark mit Churn korrelierende Variablen:
+  - Kundendauer (tenure) ⬇ → Neukunden kündigen häufiger.
+  - Vertragsart 📜 → Monatliche Verträge weisen deutlich höhere Kündigungsraten auf als Jahres- oder Zweijahresverträge.
+  - Monatliche Kosten 💰 → Kunden mit höheren monatlichen Kosten kündigen eher.
+    
+- Empfohlene Visualisierung: Korrelations-Heatmap + Vergleichsgrafiken.
+- Erkenntnisse pro Variable
+  - Kundendauer & Churn: Kunden mit einer kürzeren Vertragslaufzeit (unter einem Jahr) sind deutlich abwanderungsgefährdeter.
+  - Monatliche Kosten & Churn: Hochpreisige Tarife sind sensibler gegenüber Kündigungen.
+  - Vertragsart & Churn: Langfristige Verträge binden Kunden effektiver.
+
+- Bestes Modell: RandomForestClassifier
+- Erzielte Kennzahlen:
+  - Präzision: 0,91
+  - Recall: 0,88
+  - F1-Score: 0,89
+  - ROC AUC: 0,94
+
+- Empfohlene Visualisierung: Konfusionsmatrix + ROC-Kurve.
+
+- Die Analyse zeigt, dass Kundendauer, Vertragsart und monatliche Kosten die wichtigsten Faktoren für Churn sind. Das entwickelte Modell ermöglicht: 
+  - Die frühzeitige Identifikation von gefährdeten Kunden
+  - Die gezielte Planung von Kundenbindungsmaßnahmen
+  - Die Priorisierung von Marketingaktionen zur Reduzierung der Kündigungsquote
 
