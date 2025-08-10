@@ -61,7 +61,7 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
   ## 📈 Visualisierungen
 
-*➡ [Zum Notebook: churn_prediction.ipynb](churn_prediction.ipynb)*
+*➡ [Zum Notebook: churn_prediction.ipynb](./churn_prediction.ipynb)*
 
 ---
 
@@ -70,4 +70,5 @@ In diesem Projekt wird das Verhalten und Profil von Kunden im Rahmen einer Marke
 
 ```bash
 streamlit run app_marketing.py
+
 
