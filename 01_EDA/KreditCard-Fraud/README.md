@@ -58,7 +58,7 @@ In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erke
 
 ## 📈 Visualisierungen
 
-*➡ [Zum Notebook: CreditCard_fraud.ipynb](https://github.com/lionelcarine/Data-Science-Portfolio/blob/main/01_EDA/KreditCard_Fraud/CreditCard_fraud.ipynb)*
+*➡ [Zum Notebook: CreditCard_fraud.ipynb](https://github.com/lionelcarine/Data-Science-Portfolio/blob/main/01_EDA/KreditCard-Fraud/CreditCard_fraud.ipynb)*
 
 ---
 
@@ -66,4 +66,5 @@ In diesem Projekt analysiere ich die Banktransaktionen, um Betrugsmuster zu erke
 
 ```bash
 streamlit run .\app_creditcard.py 
+
 
